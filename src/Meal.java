@@ -9,38 +9,11 @@ public class Meal {
     }
 
     public String toString() {
-        return (name + " meal, " + price);
+        return (name + " meal, $" + price);
     }
 
     public static void main(String[] args) {
         Meal burger = new Meal("hamburger", 7.99);
         System.out.print(burger.toString());
     }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 }

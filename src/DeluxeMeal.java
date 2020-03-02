@@ -17,20 +17,4 @@ public class DeluxeMeal extends Meal {
         DeluxeMeal burritoCombo = new DeluxeMeal("burrito", "chips", "lemonade", 7.49);
         System.out.print(burritoCombo.toString());
     }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 }
